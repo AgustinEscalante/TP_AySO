@@ -1,0 +1,92 @@
+[200~git clone https://github.com/upszot/UTN-FRA_SO_Vagrant.git
+git clone https://github.com/upszot/UTN-FRA_SO_Vagrant.git
+cd UTN-FRA_SO_Vagrant/
+cd VagrantFiles/
+cd 1_equipo
+vagrant up
+git init
+echo "Ejemplo" > ejemplo.txt
+git add .
+git commit -m "primer commit"
+git config --global user.email "agustinescalante97@gmail.com"
+git config --global user.name "AgustinEscalante"
+git commit -m "primer commit"
+git remote add origin https://github.com/AgustinEscalante/Ayso.git
+git push -u origin master
+ls
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+ls
+cd repogit/
+git clone https://github.com/AgustinEscalante/TP_AySO.git
+git clone git@github.com:AgustinEscalante/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -i
+ls -l
+os-release
+cat/etc/os-release
+ls
+cd README.md 
+os-release
+"os-release"
+
+cat/etc/os-release
+uname -a
+cat /etc/os-release
+whoami
+hostname
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+ls
+..
+pd
+pwd
+cat /etc/os-release
+-/repogit/Tp_AySO$ cat /etc/os-release
+grep
+grep "hola"
+whoami
+echo "Usuario=$(whoami)">datos_usuario.tt
+echo "Usuario=$(whoami)">datos_usuario.txt
+ls
+git add .
+git status
+git config --global user.emai "agustinescalante97@gmail.com"
+git config --global user.name "AgustinEscalante"
+git commit -m "ADD: agregando 1er ejercicio sobre datos_usuarios.txt"
+git push
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuarios.txt
+cat datos_usuario.txt
+[200~wmic cpu get name
+wmic cpu get name
+echo AMD Ryzen 5 3500 6-Core Processor >> datos_usuarios.txt
+cat datos_usuario.txt
+echo AMD Ryzen 5 3500 6-Core Processor >> datos_usuario.txt
+ls
+cat datos_usuario.txt
+sed -i '$d' datos_usuario.txt
+cat datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git status
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat <<EOF>>README.md
+Alumno: Agustin
+Division: 313 Turno: Noche
+EOF
+
+cat readme.md
+git status
+git add .
+git status
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
