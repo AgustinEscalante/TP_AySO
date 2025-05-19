@@ -1,2 +1,2 @@
-Usuario=Esca
 model name	: AMD Ryzen 5 3500 6-Core Processor              
+AMD Ryzen 5 3500 6-Core Processor
